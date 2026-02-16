@@ -1,0 +1,147 @@
+<!DOCTYPE html> <!--its a fisrt line in html and used to open any server in browser -->
+<html lang="en"> <!---->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display">  -->
+        <link rel="stylesheet" href="profile.css">
+        <link rel="icon" href="img1.webp " type="image/x-icon">
+        <script src="profile.js" defer></script>
+</head>
+<body>
+    <center>
+    <header>
+       <h1>This is Abhinaya, a <span class="about-me"></span></h1>
+       <p>Welcome to my world!</p>    
+    </header>
+    <hr>
+    <section>
+        <h2>About Me</h2>
+        <img src="data:image/webp;base64,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" alt="picture"  class="icon">
+        <p>Hello I'am Abhinaya, and here's a little about Me</p>
+ </section>
+ <hr>
+
+ <section>
+<table  align="center">
+<tr>
+<td>
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+    <li>web Development</li>
+    <li>Full stack with python</li>
+    <li>Html/css developer</li>
+   </ul>
+</table>
+</tr>
+</td>
+<section class="horizontal-scroll">
+<div class="icon-container">
+<img src="images/icon1.png" alt="html">
+<img src="images/icon2.png" alt="css">
+<img src="images/icon3.png" alt="js">
+<img src="images/icon4.png" alt="java">
+<img src="images/icon5.jpeg" alt="python">
+<img src="images/icon6.png" alt="c">
+</div>
+</section>
+ </section>
+ <hr>
+
+<section id="programming-languages">
+    <h2>programming Languages</h2>
+    <div class="skill">
+    <p>HTML</p>
+    <div class="progress-bar" data-progress="85">
+    <div class="progress"></div>
+    </div>
+    </div>
+  <div class="skill">
+   <p>javascript</p>
+    <div class="progress-bar" data-progress="60">
+    <div class="progress"></div> 
+    </div>
+   </div>
+      <div class="skill">
+    <p>CSS</p>
+    <div class="progress-bar" data-progress="75">
+    <div class="progress"></div>
+   </div>
+   </div>
+</section>
+<hr> 
+
+ <section>
+   <h2>My Projects</h2>
+    <p style="font-size: 20px;">Take a look at some of my works.</p>
+    <section id="projects">
+      <div class="project-thumbnail">
+         <div class="thumbnail-content">
+            <img src="images/rps.jpeg" alt="project 1">
+            <h3>Rock-Paper-Scissors</h3>
+            <p>Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript with real-time score display and randomized computer responses.</p>
+            <a href="rockpaper.html" class="btn">Know more</a>
+         </div>
+      </div>
+            <div class="project-thumbnail">
+         <div class="thumbnail-content">
+            <img src="images/tictoctoe.jpeg" alt="project 2">
+            <h3>Tic-Tac-Toe</h3>
+            <p>created a Tic-Tac-Toe web game using HTML, CSS, and JavaScript where two players take turns, and the game automatically detects wins, draws, and restarts.</p>
+            <a href="tic toc toe.html" class="btn">Know more</a>
+         </div>
+      </div>
+            <div class="project-thumbnail">
+         <div class="thumbnail-content">
+            <img src="images/flowermart.jpeg" alt="project 3">
+            <h3>Flower Mart</h3>
+            <p>Flower Mart is a web-based platform developed using HTML and CSS where users can browse and purchase flowers online</p>
+            <a href="prg2.html" class="btn">Know more</a>
+         </div>
+      </div>
+
+    </section>
+
+ </section>
+ <hr>
+ <section>
+    <h2>Contact Me</h2>
+    <form action="#" method="get">
+        <div class="forms">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+        </div>
+         <div class="forms">
+            <label for="email">Email:</label>
+            <input type="email" id="mail" placeholder="@gmail">
+        </div>
+         <div class="forms">
+            <label for="message">Message:</label>
+           <textarea id="message" name="message" placeholder="Yor Message"></textarea>
+            </div>
+        <button type="submit">Send message</button>
+    </form>
+ </section>
+ <hr>
+  <section>
+    <h2>Contact information</h2>
+    <p>Let's connect</p>
+    <div class="icon-links">
+    <a href="mailto:ramagouniabhinaya@gmail.com" style="background-color:#09b0e7;" class="icon"><i class='bx bx-envelope'></i>
+    </a>
+        <a href="https://www.linkedin.com/in/ramagouni-abhinaya-158208337" class="icon" style="background-color: #1bd63b;"><i class='bx bxl-linkedin'></i>
+    </a>
+      </div>
+ </section>
+ <hr>
+ <footer>
+    <p>&copy;2025 Abhinaya.R All Rights reserved</p>
+ </footer>
+ <div id="dark-mode-toggle" class="dark-mode-toggle">
+    <i class="bx bxs-moon"></i>
+ </div>
+ </center>
+</body>
+</html>
